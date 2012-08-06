@@ -1,0 +1,30 @@
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.ie.InternetExplorerDriver;
+
+
+public class Login extends CheckMethod{
+	WebDriver driver;
+	public Login(WebDriver startdr){
+		driver = startdr;
+		start();
+	}
+	
+	public void start(){
+		driver.get("https://www.misterpark.jp/login/");
+		try {Thread.sleep(mTime);}catch (InterruptedException e) {}
+		login("appzone_oy","appzone_oy",driver);
+		try {Thread.sleep(mTime);}catch (InterruptedException e) {}
+		clickAppXpath("//table[@id='mypage_apli_list']//p[@class='tcenter sppb10']//input[@onclick='location.href='/apps/build/?app_id=323']",driver);
+		try {Thread.sleep(mTime);}catch (InterruptedException e) {}
+	}
+
+	public void login(String id,String passward,WebDriver driver){
+		WebElement element = driver.findElement(By.name("username"));
+		element.sendKeys(id);     
+		element = driver.findElement(By.name("password"));
+		element.sendKeys(passward);
+		element.submit();
+	}
+}

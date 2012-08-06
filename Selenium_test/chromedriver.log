@@ -1,0 +1,204 @@
+[0.031][INFO]:      ChromeDriver 21.0.1180.4 C:\chrome_driver\chromedriver_win_21.0.1180.4\chromedriver.exe
+[1.364][FINE]:      Initializing session with capabilities {
+   "browserName": "chrome",
+   "chrome.switches": [  ],
+   "chromeOptions": {
+      "args": [  ],
+      "extensions": [  ]
+   },
+   "platform": "ANY",
+   "version": ""
+}
+
+[1.364][INFO]:      Launching chrome: "C:\Users\choi\AppData\Local\Google\Chrome\Application\chrome.exe" --disable-hang-monitor --disable-prompt-on-repost --dom-automation --full-memory-crash-report --no-default-browser-check --no-first-run --ignore-certificate-errors --disable-popup-blocking --homepage=about:blank
+[10.623][INFO]:     Connected to Chrome successfully. Version: 20.0.1132.47
+[10.668][FINE]:     Command received (/session/d964353a3dbabe98fc125a47d004f3e2)
+[10.668][FINE]:     Command finished (/session/d964353a3dbabe98fc125a47d004f3e2) with response {
+   "sessionId": "d964353a3dbabe98fc125a47d004f3e2",
+   "status": 0,
+   "value": {
+      "acceptSslCerts": false,
+      "applicationCacheEnabled": false,
+      "browserConnectionEnabled": false,
+      "browserName": "chrome",
+      "chrome.chromedriverVersion": "21.0.1180.4",
+      "chrome.nativeEvents": false,
+      "cssSelectorsEnabled": true,
+      "databaseEnabled": false,
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "locationContextEnabled": false,
+      "nativeEvents": true,
+      "platform": "windows",
+      "rotatable": false,
+      "takesScreenshot": true,
+      "version": "20.0.1132.47",
+      "webStorageEnabled": true
+   }
+}
+
+[10.692][FINE]:     Command received (/session/d964353a3dbabe98fc125a47d004f3e2/url) with params {
+   "url": "https://www.misterpark.jp/login/"
+}
+
+[10.692][FINER]:    Waiting for all views to stop loading...
+[10.762][FINER]:    Done waiting for all views to stop loading
+[17.559][FINER]:    Waiting for all views to stop loading...
+[17.563][FINER]:    Done waiting for all views to stop loading
+[17.563][FINE]:     Command finished (/session/d964353a3dbabe98fc125a47d004f3e2/url) with response {
+   "sessionId": "d964353a3dbabe98fc125a47d004f3e2",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[17.573][FINE]:     Command received (/session/d964353a3dbabe98fc125a47d004f3e2/element) with params {
+   "using": "name",
+   "value": "username"
+}
+
+[17.573][FINER]:    Waiting for all views to stop loading...
+[17.574][FINER]:    Done waiting for all views to stop loading
+[17.600][FINER]:    Waiting for all views to stop loading...
+[17.600][FINER]:    Done waiting for all views to stop loading
+[17.600][FINE]:     Command finished (/session/d964353a3dbabe98fc125a47d004f3e2/element) with response {
+   "sessionId": "d964353a3dbabe98fc125a47d004f3e2",
+   "status": 0,
+   "value": {
+      "ELEMENT": ":wdc:1341330446881"
+   }
+}
+
+[17.610][FINE]:     Command received (/session/d964353a3dbabe98fc125a47d004f3e2/element/:wdc:1341330446881/value) with params {
+   "id": ":wdc:1341330446881",
+   "value": [ "appzone_oy" ]
+}
+
+[17.610][FINER]:    Waiting for all views to stop loading...
+[17.610][FINER]:    Done waiting for all views to stop loading
+[17.791][FINER]:    Waiting for all views to stop loading...
+[17.791][FINER]:    Done waiting for all views to stop loading
+[17.791][FINE]:     Command finished (/session/d964353a3dbabe98fc125a47d004f3e2/element/:wdc:1341330446881/value) with response {
+   "sessionId": "d964353a3dbabe98fc125a47d004f3e2",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[17.795][FINE]:     Command received (/session/d964353a3dbabe98fc125a47d004f3e2/element) with params {
+   "using": "name",
+   "value": "password"
+}
+
+[17.795][FINER]:    Waiting for all views to stop loading...
+[17.795][FINER]:    Done waiting for all views to stop loading
+[17.816][FINER]:    Waiting for all views to stop loading...
+[17.817][FINER]:    Done waiting for all views to stop loading
+[17.817][FINE]:     Command finished (/session/d964353a3dbabe98fc125a47d004f3e2/element) with response {
+   "sessionId": "d964353a3dbabe98fc125a47d004f3e2",
+   "status": 0,
+   "value": {
+      "ELEMENT": ":wdc:1341330446882"
+   }
+}
+
+[17.821][FINE]:     Command received (/session/d964353a3dbabe98fc125a47d004f3e2/element/:wdc:1341330446882/value) with params {
+   "id": ":wdc:1341330446882",
+   "value": [ "appzone_oy" ]
+}
+
+[17.821][FINER]:    Waiting for all views to stop loading...
+[17.821][FINER]:    Done waiting for all views to stop loading
+[17.981][FINER]:    Waiting for all views to stop loading...
+[17.982][FINER]:    Done waiting for all views to stop loading
+[17.982][FINE]:     Command finished (/session/d964353a3dbabe98fc125a47d004f3e2/element/:wdc:1341330446882/value) with response {
+   "sessionId": "d964353a3dbabe98fc125a47d004f3e2",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[17.985][FINE]:     Command received (/session/d964353a3dbabe98fc125a47d004f3e2/element/:wdc:1341330446882/submit) with params {
+   "id": ":wdc:1341330446882"
+}
+
+[17.985][FINER]:    Waiting for all views to stop loading...
+[17.985][FINER]:    Done waiting for all views to stop loading
+[18.030][FINER]:    Waiting for all views to stop loading...
+[19.424][FINER]:    Done waiting for all views to stop loading
+[19.424][FINE]:     Command finished (/session/d964353a3dbabe98fc125a47d004f3e2/element/:wdc:1341330446882/submit) with response {
+   "sessionId": "d964353a3dbabe98fc125a47d004f3e2",
+   "status": 0,
+   "value": null
+}
+
+[19.942][FINE]:     Command received (/session/d964353a3dbabe98fc125a47d004f3e2/element) with params {
+   "using": "xpath",
+   "value": "//input[@onclick]"
+}
+
+[19.943][FINER]:    Waiting for all views to stop loading...
+[19.943][FINER]:    Done waiting for all views to stop loading
+[19.976][FINER]:    Waiting for all views to stop loading...
+[19.979][FINER]:    Done waiting for all views to stop loading
+[19.979][FINE]:     Command finished (/session/d964353a3dbabe98fc125a47d004f3e2/element) with response {
+   "sessionId": "d964353a3dbabe98fc125a47d004f3e2",
+   "status": 0,
+   "value": {
+      "ELEMENT": ":wdc:1341330449255"
+   }
+}
+
+[19.982][FINE]:     Command received (/session/d964353a3dbabe98fc125a47d004f3e2/element/:wdc:1341330449255/click) with params {
+   "id": ":wdc:1341330449255"
+}
+
+[19.983][FINER]:    Waiting for all views to stop loading...
+[19.983][FINER]:    Done waiting for all views to stop loading
+[20.079][FINER]:    Waiting for all views to stop loading...
+[20.079][FINER]:    Done waiting for all views to stop loading
+[20.080][FINE]:     Command finished (/session/d964353a3dbabe98fc125a47d004f3e2/element/:wdc:1341330449255/click) with response {
+   "sessionId": "d964353a3dbabe98fc125a47d004f3e2",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[41.748][FINE]:     Command received (/session/d964353a3dbabe98fc125a47d004f3e2/element) with params {
+   "using": "id",
+   "value": "info_left_menu"
+}
+
+[41.748][FINER]:    Waiting for all views to stop loading...
+[41.749][FINER]:    Done waiting for all views to stop loading
+[41.769][FINER]:    Waiting for all views to stop loading...
+[41.769][FINER]:    Done waiting for all views to stop loading
+[41.769][WARNING]:  Command finished (/session/d964353a3dbabe98fc125a47d004f3e2/element) with response {
+   "sessionId": "d964353a3dbabe98fc125a47d004f3e2",
+   "status": 7,
+   "value": {
+      "message": "The element could not be found"
+   }
+}
+
+[43.128][FINE]:     Command received (/session/d964353a3dbabe98fc125a47d004f3e2/element) with params {
+   "using": "id",
+   "value": "name"
+}
+
+[43.128][FINER]:    Waiting for all views to stop loading...
+[43.128][FINER]:    Done waiting for all views to stop loading
+[43.148][FINER]:    Waiting for all views to stop loading...
+[43.149][FINER]:    Done waiting for all views to stop loading
+[43.149][WARNING]:  Command finished (/session/d964353a3dbabe98fc125a47d004f3e2/element) with response {
+   "sessionId": "d964353a3dbabe98fc125a47d004f3e2",
+   "status": 7,
+   "value": {
+      "message": "The element could not be found"
+   }
+}
+

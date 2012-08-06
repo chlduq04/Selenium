@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="WorkbenchPreferenceDialogSettings">
+		<item value="8" key="DIALOG_Y_ORIGIN"/>
+		<item value="8" key="DIALOG_X_ORIGIN"/>
+	</section>
+	<section name="NewWizardAction">
+		<item value="org.eclipse.jdt.ui.wizards.NewClassCreationWizard" key="NewWizardSelectionPage.STORE_SELECTED_ID"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="org.eclipse.ui.Basic"/>
+		</list>
+	</section>
+	<section name="ShowViewDialog">
+		<item value="321" key="DIALOG_WIDTH"/>
+		<item value="org.eclipse.debug.ui.DebugView" key="ShowViewDialog.STORE_SELECTED_VIEW_ID"/>
+		<item value="116" key="DIALOG_Y_ORIGIN"/>
+		<item value="457" key="DIALOG_X_ORIGIN"/>
+		<item value="438" key="DIALOG_HEIGHT"/>
+		<item value="1|맑은 고딕|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕" key="DIALOG_FONT_NAME"/>
+		<list key="ShowViewDialog.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="org.eclipse.ui"/>
+			<item value="com.android.ide.eclipse.ddms.views.category"/>
+			<item value="org.eclipse.debug.ui"/>
+			<item value="org.eclipse.help.ui"/>
+			<item value="org.eclipse.jdt.ui.java"/>
+			<item value="org.eclipse.jdt.ui.java.browsing"/>
+			<item value="org.tigris.subversion.subclipse"/>
+			<item value="org.eclipse.team.ui"/>
+			<item value="org.eclipse.wst.xml"/>
+		</list>
+	</section>
+</section>
